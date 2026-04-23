@@ -4,11 +4,16 @@ import { motion } from "framer-motion";
 import { Phone, Mail, Star, ArrowRight, Heart, Instagram } from "lucide-react";
 import ScrollReveal from "@/components/ScrollReveal";
 
-const HERO_IMG = "https://d2xsxph8kpxj0f.cloudfront.net/310519663485367245/o434Vq6diTUqHrtEvgeypi/hero-romantic-room-PEnY77myoPNMhj4etqxDna.webp";
-const BOUQUET_IMG = "https://d2xsxph8kpxj0f.cloudfront.net/310519663485367245/o434Vq6diTUqHrtEvgeypi/hero-bouquet-mBkjemLEznxx2FvxU8KnpF.webp";
-const PROPOSAL_IMG = "https://d2xsxph8kpxj0f.cloudfront.net/310519663485367245/o434Vq6diTUqHrtEvgeypi/hero-proposal-setup-PN2XhtiNwFUCx2VjKkJJQC.webp";
-const ANNIVERSARY_IMG = "https://d2xsxph8kpxj0f.cloudfront.net/310519663485367245/o434Vq6diTUqHrtEvgeypi/hero-anniversary-Y98R996jMx52Z5YvtPwMPU.webp";
-const BALLOON_IMG = "https://d2xsxph8kpxj0f.cloudfront.net/310519663485367245/o434Vq6diTUqHrtEvgeypi/hero-balloon-decor-cHoAgUzNejNrmmgiFzn79U.webp";
+const HERO_IMG = "https://res.cloudinary.com/drz47afmg/image/upload/v1776913381/kim1_ixwj62.jpg"
+// "https://d2xsxph8kpxj0f.cloudfront.net/310519663485367245/o434Vq6diTUqHrtEvgeypi/hero-romantic-room-PEnY77myoPNMhj4etqxDna.webp";
+const BOUQUET_IMG = "https://res.cloudinary.com/drz47afmg/image/upload/v1776913752/flower_yqem34.jpg"
+//"https://d2xsxph8kpxj0f.cloudfront.net/310519663485367245/o434Vq6diTUqHrtEvgeypi/hero-bouquet-mBkjemLEznxx2FvxU8KnpF.webp";
+const PROPOSAL_IMG = "https://res.cloudinary.com/drz47afmg/image/upload/v1776915984/proposal_wlz1br.jpg"
+//"https://d2xsxph8kpxj0f.cloudfront.net/310519663485367245/o434Vq6diTUqHrtEvgeypi/hero-proposal-setup-PN2XhtiNwFUCx2VjKkJJQC.webp";
+const ANNIVERSARY_IMG = "https://res.cloudinary.com/drz47afmg/image/upload/v1776916058/annivs_ibamf4.jpg"
+//"https://d2xsxph8kpxj0f.cloudfront.net/310519663485367245/o434Vq6diTUqHrtEvgeypi/hero-anniversary-Y98R996jMx52Z5YvtPwMPU.webp";
+const BALLOON_IMG = "https://res.cloudinary.com/drz47afmg/image/upload/v1776916873/hbds_tdsyux.jpg"
+//"https://d2xsxph8kpxj0f.cloudfront.net/310519663485367245/o434Vq6diTUqHrtEvgeypi/hero-balloon-decor-cHoAgUzNejNrmmgiFzn79U.webp";
 
 const services = [
   { title: "Hotel & Room Décor", desc: "Transform any hotel room into a breathtaking romantic sanctuary with roses, candles, and fairy lights.", img: HERO_IMG },
@@ -27,9 +32,9 @@ const usps = [
 ];
 
 const testimonials = [
-  { name: "Sarah M.", text: "Kimz Hearts & Roses made our anniversary absolutely magical. The room was filled with roses and candles — it was like stepping into a dream. My husband was speechless!", rating: 5 },
-  { name: "James T.", text: "I hired them for my proposal and it was beyond perfect. The MARRY ME sign, the balloons, the rose petals — she said yes before I even got down on one knee!", rating: 5 },
-  { name: "Priya K.", text: "The birthday setup they did for my best friend was stunning. The attention to detail was incredible, and the balloon arch was a showstopper. Highly recommend!", rating: 5 },
+  { name: "Taji  K.", text: "Truly recommend this business. Nyasha was so professional and the process was seamless and stress-free. The bouquet was deliver just in time for a surprise. As for the bouquet itself? Pure luxury. You can immediately tell the difference in quality; the roses were fresh, vibrant, and arranged to perfection. Most importantly, my wife loved the flowers so much. They truly made her feel special and adored. Thank you, Nyasha, for helping me make her feel so loved! I will definitely be back", rating: 5 },
+  { name: "Shaddy.", text: "My girl really, really loved the flowers. The whole experience was unforgettable the smile on her face, how speechless she was when I pulled out that bouquet... it meant everything to me. Seeing her that happy honestly made my entire day/month. Thank you so much for helping create such a beautiful moment. I’ll never forget it.", rating: 5 },
+  { name: "Lexy.", text: "Hi Nyasha, thank you so much for the beautiful decoration setup for my partner’s birthday. She absolutely loved it, and it made the day even more special. Your team’s attention to detail and the creativity put into the event was truly outstanding, and I can’t thank you enough for making the occasion unforgettable. I’m looking forward to working with you again in the future for more celebrations. Thank you once again for the excellent service. Warm regards!", rating: 5 },
 ];
 
 const galleryPreviews = [

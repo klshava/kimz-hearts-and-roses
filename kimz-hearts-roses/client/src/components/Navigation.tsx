@@ -51,19 +51,13 @@ export default function Navigation() {
           {/* Logo */}
           <Link href="/">
             <div className="flex items-center gap-2 group">
-              <svg width="32" height="40" viewBox="0 0 80 100" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M15 30 L25 10 L35 25 L40 5 L45 25 L55 10 L65 30 Z" fill={scrolled ? "#C0002A" : "#C0002A"} />
-                <rect x="15" y="28" width="50" height="6" rx="1" fill="#C9A96E" />
-                <path d="M30 45 L30 85 M30 65 L50 45 M35 65 L55 85" stroke={scrolled ? "#C0002A" : "#C0002A"} strokeWidth="5" strokeLinecap="round" strokeLinejoin="round" />
-              </svg>
-              <div className="flex flex-col">
-                <span className={`font-serif text-lg tracking-[0.2em] font-bold transition-colors ${scrolled ? "text-black" : "text-white"}`}>
-                  KIMZ
-                </span>
-                <span className={`text-[8px] tracking-[0.35em] font-sans font-light transition-colors ${scrolled ? "text-[#C9A96E]" : "text-[#C9A96E]"}`}>
-                  LUXURY EVENTS
-                </span>
-              </div>
+            <img 
+              src="https://res.cloudinary.com/drz47afmg/image/upload/v1776973529/logo_omsgcm.png"
+              alt="Logo"
+              width="256"
+              height="320"
+              className="object-contain"
+              />
             </div>
           </Link>
 

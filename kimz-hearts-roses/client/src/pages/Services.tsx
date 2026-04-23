@@ -2,17 +2,24 @@
 import { Phone, Mail, ArrowRight } from "lucide-react";
 import ScrollReveal from "@/components/ScrollReveal";
 
-const HERO_IMG = "https://d2xsxph8kpxj0f.cloudfront.net/310519663485367245/o434Vq6diTUqHrtEvgeypi/hero-romantic-room-PEnY77myoPNMhj4etqxDna.webp";
-const PROPOSAL_IMG = "https://d2xsxph8kpxj0f.cloudfront.net/310519663485367245/o434Vq6diTUqHrtEvgeypi/hero-proposal-setup-PN2XhtiNwFUCx2VjKkJJQC.webp";
-const ANNIVERSARY_IMG = "https://d2xsxph8kpxj0f.cloudfront.net/310519663485367245/o434Vq6diTUqHrtEvgeypi/hero-anniversary-Y98R996jMx52Z5YvtPwMPU.webp";
-const BALLOON_IMG = "https://d2xsxph8kpxj0f.cloudfront.net/310519663485367245/o434Vq6diTUqHrtEvgeypi/hero-balloon-decor-cHoAgUzNejNrmmgiFzn79U.webp";
-const BOUQUET_IMG = "https://d2xsxph8kpxj0f.cloudfront.net/310519663485367245/o434Vq6diTUqHrtEvgeypi/hero-bouquet-mBkjemLEznxx2FvxU8KnpF.webp";
+const HERO_IMG = "https://res.cloudinary.com/drz47afmg/image/upload/v1776975244/anniversa_toyl2t.jpg"
+//"https://d2xsxph8kpxj0f.cloudfront.net/310519663485367245/o434Vq6diTUqHrtEvgeypi/hero-romantic-room-PEnY77myoPNMhj4etqxDna.webp";
+const PROPOSAL_IMG = "https://res.cloudinary.com/drz47afmg/image/upload/v1776976332/kimzheartsandroses_1763438454_3767125155484240586_27755518903_7_g2fzbe.jpg"
+//"https://res.cloudinary.com/drz47afmg/image/upload/v1776975812/propo_rz5v9f.jpg"
+//"https://d2xsxph8kpxj0f.cloudfront.net/310519663485367245/o434Vq6diTUqHrtEvgeypi/hero-proposal-setup-PN2XhtiNwFUCx2VjKkJJQC.webp";
+const ANNIVERSARY_IMG = "https://res.cloudinary.com/drz47afmg/image/upload/v1776975640/anniv_juyzdz.jpg"
+//"https://d2xsxph8kpxj0f.cloudfront.net/310519663485367245/o434Vq6diTUqHrtEvgeypi/hero-anniversary-Y98R996jMx52Z5YvtPwMPU.webp";
+const BALLOON_IMG = "https://res.cloudinary.com/drz47afmg/image/upload/v1776975285/bday_vptbqj.jpg"
+//"https://res.cloudinary.com/drz47afmg/image/upload/v1776974986/hotel_duf5ue.jpg"
+//"https://d2xsxph8kpxj0f.cloudfront.net/310519663485367245/o434Vq6diTUqHrtEvgeypi/hero-balloon-decor-cHoAgUzNejNrmmgiFzn79U.webp";
+const BOUQUET_IMG = "https://res.cloudinary.com/drz47afmg/image/upload/v1776976391/flo2_hq4s3k.jpg"
+//"https://d2xsxph8kpxj0f.cloudfront.net/310519663485367245/o434Vq6diTUqHrtEvgeypi/hero-bouquet-mBkjemLEznxx2FvxU8KnpF.webp";
 
 const services = [
   {
     title: "Hotel & Room Décor",
-    desc: "Transform any hotel room, suite, or penthouse into a breathtaking romantic sanctuary. We specialise in creating immersive experiences with hundreds of fresh roses, scattered petals, warm candlelight, fairy lights, and premium fabrics. Whether it's a surprise for your partner or a special occasion, we handle every detail so you can focus on the moment.",
-    includes: ["Fresh rose arrangements & scattered petals", "Candle displays (LED & real flame options)", "Fairy light installations", "Premium fabric draping & styling", "Champagne & chocolate setup (on request)", "Custom signage & personalised touches"],
+    desc: "Transform any hotel room, suite, or penthouse into a breathtaking romantic sanctuary. We specialise in creating immersive experiences with fresh roses, scattered petals, warm candlelight and fairy lights. Whether it's a surprise for your partner or a special occasion, we handle every detail so you can focus on the moment.",
+    includes: ["Fresh rose arrangements & scattered petals", "Candle displays (LED & real flame options)", "Fairy light installations", "Champagne & chocolate setup (on request)", "Custom signage & personalised touches"],
     img: HERO_IMG,
   },
   {

@@ -44,32 +44,14 @@ export default function LoadingScreen({ onComplete }: LoadingScreenProps) {
             transition={{ duration: 0.6 }}
             className="mb-12"
           >
-            <svg width="80" height="100" viewBox="0 0 80 100" fill="none" xmlns="http://www.w3.org/2000/svg">
-              {/* Crown */}
-              <path d="M15 30 L25 10 L35 25 L40 5 L45 25 L55 10 L65 30 Z" fill="#C0002A" />
-              <rect x="15" y="28" width="50" height="6" rx="1" fill="#C9A96E" />
-              {/* K letter */}
-              <path d="M30 45 L30 85 M30 65 L50 45 M35 65 L55 85" stroke="#C0002A" strokeWidth="5" strokeLinecap="round" strokeLinejoin="round" />
-            </svg>
+             <img 
+              src="https://res.cloudinary.com/drz47afmg/image/upload/v1776973529/logo_omsgcm.png"
+              alt="Logo"
+              width="512"
+              height="640"
+              className="object-contain"
+              />
           </motion.div>
-
-          {/* Brand Name */}
-          <motion.h1
-            initial={{ opacity: 0, y: 10 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.3, duration: 0.5 }}
-            className="font-serif text-2xl tracking-[0.3em] text-white mb-1"
-          >
-            KIMZ
-          </motion.h1>
-          <motion.p
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ delay: 0.5, duration: 0.5 }}
-            className="text-[#C9A96E] text-xs tracking-[0.5em] font-sans font-light mb-12"
-          >
-            LUXURY EVENTS
-          </motion.p>
 
           {/* Progress Bar */}
           <div className="w-48 relative">

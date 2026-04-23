@@ -33,19 +33,14 @@ export default function Footer() {
           {/* Brand */}
           <div className="lg:col-span-1">
             <div className="flex items-center gap-2 mb-4">
-              <svg width="28" height="36" viewBox="0 0 80 100" fill="none">
-                <path d="M15 30 L25 10 L35 25 L40 5 L45 25 L55 10 L65 30 Z" fill="#C0002A" />
-                <rect x="15" y="28" width="50" height="6" rx="1" fill="#C9A96E" />
-                <path d="M30 45 L30 85 M30 65 L50 45 M35 65 L55 85" stroke="#C0002A" strokeWidth="5" strokeLinecap="round" strokeLinejoin="round" />
-              </svg>
-              <div>
-                <p className="font-serif text-lg tracking-[0.2em] font-bold">KIMZ</p>
-                <p className="text-[7px] tracking-[0.35em] text-[#C9A96E] font-light">LUXURY EVENTS</p>
-              </div>
+               <img 
+              src="https://res.cloudinary.com/drz47afmg/image/upload/v1776973529/logo_omsgcm.png"
+              alt="Logo"
+              width="158"
+              height="190"
+              className="object-contain"
+              />
             </div>
-            <p className="text-white/50 text-sm font-light leading-relaxed mt-4 italic font-serif text-lg">
-              "Celebrating love, one detail at a time."
-            </p>
           </div>
 
           {/* Quick Links */}

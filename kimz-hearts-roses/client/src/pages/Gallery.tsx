@@ -4,11 +4,26 @@ import { motion, AnimatePresence } from "framer-motion";
 import { Heart, X, ChevronLeft, ChevronRight } from "lucide-react";
 import ScrollReveal from "@/components/ScrollReveal";
 
-const HERO_IMG = "https://d2xsxph8kpxj0f.cloudfront.net/310519663485367245/o434Vq6diTUqHrtEvgeypi/hero-romantic-room-PEnY77myoPNMhj4etqxDna.webp";
-const PROPOSAL_IMG = "https://d2xsxph8kpxj0f.cloudfront.net/310519663485367245/o434Vq6diTUqHrtEvgeypi/hero-proposal-setup-PN2XhtiNwFUCx2VjKkJJQC.webp";
-const ANNIVERSARY_IMG = "https://d2xsxph8kpxj0f.cloudfront.net/310519663485367245/o434Vq6diTUqHrtEvgeypi/hero-anniversary-Y98R996jMx52Z5YvtPwMPU.webp";
-const BALLOON_IMG = "https://d2xsxph8kpxj0f.cloudfront.net/310519663485367245/o434Vq6diTUqHrtEvgeypi/hero-balloon-decor-cHoAgUzNejNrmmgiFzn79U.webp";
-const BOUQUET_IMG = "https://d2xsxph8kpxj0f.cloudfront.net/310519663485367245/o434Vq6diTUqHrtEvgeypi/hero-bouquet-mBkjemLEznxx2FvxU8KnpF.webp";
+const HERO_IMG = "https://res.cloudinary.com/drz47afmg/image/upload/v1776913381/kim1_ixwj62.jpg"
+const HERO_IMG2 = "https://res.cloudinary.com/drz47afmg/image/upload/v1776916058/annivs_ibamf4.jpg"
+const HERO_IMG3 = "https://res.cloudinary.com/drz47afmg/image/upload/v1776977892/prop_idcm2k.jpg"
+//"https://d2xsxph8kpxj0f.cloudfront.net/310519663485367245/o434Vq6diTUqHrtEvgeypi/hero-romantic-room-PEnY77myoPNMhj4etqxDna.webp";
+const PROPOSAL_IMG = "https://res.cloudinary.com/drz47afmg/image/upload/v1776977168/proposal_ffsmtg.jpg"
+const PROPOSAL_IMG2 = "https://res.cloudinary.com/drz47afmg/image/upload/v1776975812/propo_rz5v9f.jpg"
+const PROPOSAL_IMG3 = "https://res.cloudinary.com/drz47afmg/image/upload/v1776976332/kimzheartsandroses_1763438454_3767125155484240586_27755518903_7_g2fzbe.jpg"
+//"https://d2xsxph8kpxj0f.cloudfront.net/310519663485367245/o434Vq6diTUqHrtEvgeypi/hero-proposal-setup-PN2XhtiNwFUCx2VjKkJJQC.webp";
+const ANNIVERSARY_IMG = "https://res.cloudinary.com/drz47afmg/image/upload/v1776975515/decor_ons5sr.jpg"
+const ANNIVERSARY_IMG2 = "https://res.cloudinary.com/drz47afmg/image/upload/v1776975640/anniv_juyzdz.jpg"
+const ANNIVERSARY_IMG3 = "https://res.cloudinary.com/drz47afmg/image/upload/v1776975244/anniversa_toyl2t.jpg"
+//"https://d2xsxph8kpxj0f.cloudfront.net/310519663485367245/o434Vq6diTUqHrtEvgeypi/hero-anniversary-Y98R996jMx52Z5YvtPwMPU.webp";
+const BALLOON_IMG = "https://res.cloudinary.com/drz47afmg/image/upload/v1776974986/hotel_duf5ue.jpg"
+const BALLOON_IMG2 = "https://res.cloudinary.com/drz47afmg/image/upload/v1776916873/hbds_tdsyux.jpg"
+const BALLOON_IMG3 = "https://res.cloudinary.com/drz47afmg/image/upload/v1776976798/hbd_bgq5ix.jpg"
+// "https://d2xsxph8kpxj0f.cloudfront.net/310519663485367245/o434Vq6diTUqHrtEvgeypi/hero-balloon-decor-cHoAgUzNejNrmmgiFzn79U.webp";
+const BOUQUET_IMG = "https://res.cloudinary.com/drz47afmg/image/upload/v1776976697/flo_qaowyk.jpg"
+const BOUQUET_IMG2 = "https://res.cloudinary.com/drz47afmg/image/upload/v1776976391/flo2_hq4s3k.jpg"
+const BOUQUET_IMG3 = "https://res.cloudinary.com/drz47afmg/image/upload/v1776913752/flower_yqem34.jpg"
+//"https://d2xsxph8kpxj0f.cloudfront.net/310519663485367245/o434Vq6diTUqHrtEvgeypi/hero-bouquet-mBkjemLEznxx2FvxU8KnpF.webp";
 
 type Category = "All" | "Proposals" | "Anniversaries" | "Birthdays" | "Bouquets" | "Hotel Décor" | "Home & Airbnb";
 
@@ -23,17 +38,21 @@ interface GalleryItem {
 
 const galleryItems: GalleryItem[] = [
   { img: HERO_IMG, label: "Luxury Hotel Suite — Rose Petal Bed", category: "Hotel Décor", aspect: "3/4" },
-  { img: PROPOSAL_IMG, label: "MARRY ME Proposal Setup", category: "Proposals", aspect: "16/9" },
-  { img: ANNIVERSARY_IMG, label: "Anniversary Dinner for Two", category: "Anniversaries", aspect: "4/3" },
-  { img: BALLOON_IMG, label: "Birthday Balloon Arch", category: "Birthdays", aspect: "4/3" },
+  { img: PROPOSAL_IMG3, label: "MARRY ME Proposal Setup", category: "Proposals", aspect: "3/4" },
+  { img: ANNIVERSARY_IMG, label: "Anniversary Dinner for Two", category: "Anniversaries", aspect: "3/4" },
+  { img: BALLOON_IMG, label: "Birthday Balloon Arch", category: "Birthdays", aspect: "3/4" },
   { img: BOUQUET_IMG, label: "Premium Red Rose Bouquet", category: "Bouquets", aspect: "3/4" },
-  { img: HERO_IMG, label: "Candlelit Room Transformation", category: "Hotel Décor", aspect: "16/9" },
-  { img: PROPOSAL_IMG, label: "Rooftop Proposal with Balloons", category: "Proposals", aspect: "4/3" },
-  { img: ANNIVERSARY_IMG, label: "Romantic Table Setting", category: "Anniversaries", aspect: "3/4" },
-  { img: BALLOON_IMG, label: "Gold & Crimson Birthday Setup", category: "Birthdays", aspect: "16/9" },
-  { img: BOUQUET_IMG, label: "Luxury Wrapped Bouquet", category: "Bouquets", aspect: "4/3" },
-  { img: HERO_IMG, label: "Airbnb Romantic Makeover", category: "Home & Airbnb", aspect: "3/4" },
-  { img: PROPOSAL_IMG, label: "Hotel Suite Proposal", category: "Proposals", aspect: "16/9" },
+  { img: HERO_IMG2, label: "Anniversary Celebration", category: "Hotel Décor", aspect: "3/4" },
+  { img: PROPOSAL_IMG, label: "Rooftop Proposal with Balloons", category: "Proposals", aspect: "3/4" },
+  { img: ANNIVERSARY_IMG2, label: "Romantic Table Setting", category: "Anniversaries", aspect: "3/4" },
+  { img: ANNIVERSARY_IMG3, label: "Elegant Anniversary Setup", category: "Anniversaries", aspect: "3/4" },
+  { img: BALLOON_IMG2, label: "Gold & Crimson Birthday Setup", category: "Birthdays", aspect: "3/4" },
+  { img: BALLOON_IMG3, label: "Birthday Balloon Decor", category: "Birthdays", aspect: "3/4" },
+  { img: BOUQUET_IMG2, label: "Luxury Wrapped Bouquet", category: "Bouquets", aspect: "3/4" },
+  { img: BOUQUET_IMG3, label: "Elegant Flower Arrangement", category: "Bouquets", aspect: "3/4" },
+  { img: HERO_IMG3, label: "Airbnb Romantic Makeover", category: "Hotel Décor", aspect: "3/4" },
+  { img: PROPOSAL_IMG2, label: "Hotel Suite Proposal", category: "Proposals", aspect: "3/4" },
+
 ];
 
 export default function Gallery() {

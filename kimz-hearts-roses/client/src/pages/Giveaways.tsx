@@ -2,41 +2,44 @@
 import { Instagram, ExternalLink, Gift } from "lucide-react";
 import ScrollReveal from "@/components/ScrollReveal";
 
-const HERO_IMG = "https://d2xsxph8kpxj0f.cloudfront.net/310519663485367245/o434Vq6diTUqHrtEvgeypi/hero-romantic-room-PEnY77myoPNMhj4etqxDna.webp";
+const HERO_IMG = "https://res.cloudinary.com/drz47afmg/image/upload/v1776978268/GA1_gtw6hi.jpg"
+//"https://d2xsxph8kpxj0f.cloudfront.net/310519663485367245/o434Vq6diTUqHrtEvgeypi/hero-romantic-room-PEnY77myoPNMhj4etqxDna.webp";
 const BALLOON_IMG = "https://d2xsxph8kpxj0f.cloudfront.net/310519663485367245/o434Vq6diTUqHrtEvgeypi/hero-balloon-decor-cHoAgUzNejNrmmgiFzn79U.webp";
-const BOUQUET_IMG = "https://d2xsxph8kpxj0f.cloudfront.net/310519663485367245/o434Vq6diTUqHrtEvgeypi/hero-bouquet-mBkjemLEznxx2FvxU8KnpF.webp";
-const PROPOSAL_IMG = "https://d2xsxph8kpxj0f.cloudfront.net/310519663485367245/o434Vq6diTUqHrtEvgeypi/hero-proposal-setup-PN2XhtiNwFUCx2VjKkJJQC.webp";
+const BOUQUET_IMG = "https://res.cloudinary.com/drz47afmg/image/upload/v1776979415/Screenshot_2026-04-24_at_07.08.01_vqo1bt.png"
+//"https://d2xsxph8kpxj0f.cloudfront.net/310519663485367245/o434Vq6diTUqHrtEvgeypi/hero-bouquet-mBkjemLEznxx2FvxU8KnpF.webp";
+const PROPOSAL_IMG = "https://res.cloudinary.com/drz47afmg/image/upload/v1776979698/comingsoon_uqhdhn.png"
+//"https://d2xsxph8kpxj0f.cloudfront.net/310519663485367245/o434Vq6diTUqHrtEvgeypi/hero-proposal-setup-PN2XhtiNwFUCx2VjKkJJQC.webp";
 const ANNIVERSARY_IMG = "https://d2xsxph8kpxj0f.cloudfront.net/310519663485367245/o434Vq6diTUqHrtEvgeypi/hero-anniversary-Y98R996jMx52Z5YvtPwMPU.webp";
 
 const pastGiveaways = [
   {
-    title: "Valentine's Day Giveaway 2025 — Winner Announced!",
-    date: "February 14, 2025",
-    prize: "Full romantic hotel room setup with 200 roses, candles, fairy lights, and champagne — valued at $850.",
-    winner: "Winner: @sarah_loves_perth",
+    title: "Valentine's Day Giveaway 2026 — Winner Announced!",
+    date: "February 14, 2026",
+    prize: "Full romantic hotel room setup with 18 ceiling ballons, candles, 12 heart shaped helium, heart shaped rose petals, 12 led lights and 20 floor ballons  — valued at $400.",
+    winner: "Winner: @sarah_perth",
     img: HERO_IMG,
   },
   {
-    title: "Mother's Day Bouquet Giveaway 2025",
-    date: "May 11, 2025",
-    prize: "Luxury 100-stem red rose bouquet in premium black wrapping with gold ribbon — valued at $350.",
+    title: "Valentine's Day Bouquet Giveaway 2025",
+    date: "February 14, 2025",
+    prize: "Full romantic hotel room setup with 18 ceiling ballons, candles, 12 heart shaped helium, heart shaped rose petals, 12 led lights and 20 floor ballons  — valued at $400.",
     winner: "Winner: Jessica M.",
     img: BOUQUET_IMG,
-  },
-  {
-    title: "New Year's Romance Giveaway 2025",
-    date: "January 1, 2025",
-    prize: "Anniversary dinner setup for two with candles, roses, and fairy lights — valued at $600.",
-    winner: "Winner: @perth_couple_goals",
-    img: ANNIVERSARY_IMG,
-  },
-  {
-    title: "Christmas Love Giveaway 2024",
-    date: "December 25, 2024",
-    prize: "Birthday celebration package with balloon arch, florals, and themed décor — valued at $500.",
-    winner: "Winner: Aisha K.",
-    img: BALLOON_IMG,
-  },
+  }//,
+  // {
+  //   title: "New Year's Romance Giveaway 2025",
+  //   date: "January 1, 2025",
+  //   prize: "Anniversary dinner setup for two with candles, roses, and fairy lights — valued at $600.",
+  //   winner: "Winner: @perth_couple_goals",
+  //   img: ANNIVERSARY_IMG,
+  // },
+  // {
+  //   title: "Christmas Love Giveaway 2024",
+  //   date: "December 25, 2024",
+  //   prize: "Birthday celebration package with balloon arch, florals, and themed décor — valued at $500.",
+  //   winner: "Winner: Aisha K.",
+  //   img: BALLOON_IMG,
+  // },
 ];
 
 export default function Giveaways() {
@@ -85,7 +88,7 @@ export default function Giveaways() {
                   Winter Romance Giveaway 2026
                 </h2>
                 <p className="text-white/70 font-light leading-relaxed mb-6">
-                  Win a complete romantic hotel room transformation valued at $1,000! Includes 300 fresh roses, candle displays, fairy lights, champagne setup, and a luxury rose bouquet to take home. Enter now on our Instagram page!
+                COMING SOON
                 </p>
                 <a
                   href="https://www.instagram.com/kimzheartsandroses/"
@@ -104,7 +107,7 @@ export default function Giveaways() {
                   className="w-full aspect-[4/3] object-cover"
                 />
                 <div className="absolute top-4 right-4 bg-[#C9A96E] text-black px-4 py-1 text-xs tracking-wider font-sans font-medium">
-                  LIVE NOW
+                  WATCH THE SPACE
                 </div>
               </div>
             </div>
