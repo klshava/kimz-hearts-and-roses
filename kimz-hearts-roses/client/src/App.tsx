@@ -19,7 +19,6 @@ import { useState, useEffect } from "react";
 function AppRouter() {
   return (
     <Layout>
-      <Router base="/kimz-hearts-and-roses">
       <Switch>
         <Route path="/" component={Home} />
         <Route path="/services" component={Services} />
@@ -32,10 +31,10 @@ function AppRouter() {
         <Route path="/404" component={NotFound} />
         <Route component={NotFound} />
       </Switch>
-      </Router>
     </Layout>
   );
 }
+
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -48,10 +47,12 @@ function App() {
   return (
     <ErrorBoundary>
       <ThemeProvider defaultTheme="light">
+        <Router base="/kimz-hearts-and-roses">
         <TooltipProvider>
           <Toaster />
           {loading ? <LoadingScreen onComplete={() => setLoading(false)} /> : <AppRouter />}
         </TooltipProvider>
+        </Router>
       </ThemeProvider>
     </ErrorBoundary>
   );
